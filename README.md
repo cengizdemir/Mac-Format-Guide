@@ -201,6 +201,7 @@ brew cask install vlc
 brew cask install slack
 brew cask install skype
 brew cask install the-unarchiver
+brew cask install path-finder
 ```
 
 # Chrome Extensions
