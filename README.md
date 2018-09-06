@@ -250,6 +250,9 @@ It will coming soon!
     git config --global user.email "YOUR-GIT-EMAIL"
 
 # Hyper Config
+```
+vim ~/.hyper.js
+```
 
 ```
 // Future versions of Hyper may add additional config options,
