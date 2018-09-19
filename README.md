@@ -203,6 +203,7 @@ brew cask install skype
 brew cask install the-unarchiver
 brew cask install path-finder
 brew cask install android-studio
+brew cask install android-file-transfer
 ```
 
 # Chrome Extensions
