@@ -452,7 +452,12 @@ end
 # Then, to save it across terminal sessions:
 funcsave rmi
 ```
+## Fish for VSCODE
+Open __Setting__ and: 
 
+````
+"terminal.integrated.shell.osx": "/usr/local/bin/fish",
+````
 # [Eslint]()
 
 ## [Eslint airbnb](https://www.npmjs.com/package/eslint-config-airbnb)
