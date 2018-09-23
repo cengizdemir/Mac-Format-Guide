@@ -539,6 +539,33 @@ http-server -S -C cert.pem -o
 
 # Mac Settings
 
+## Geting Ip Address
+````
+ifconfig |grep inet
+````
+
+## Show/Hide Hidden Files 
+
+````
+# Showing
+defaults write com.apple.finder AppleShowAllFiles YES;
+killall Finder /System/Library/CoreServices/Finder.app
+
+# Hideing
+defaults write com.apple.finder AppleShowAllFiles NO;
+killall Finder /System/Library/CoreServices/Finder.app
+
+# alias
+
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+
+showFiles
+hideFiles
+
+````
+
 # For Science
 
 brew install r
