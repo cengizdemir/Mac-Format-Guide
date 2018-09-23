@@ -160,7 +160,7 @@ brew install sqlite
         brew cask install docker
 
 1.  [Franz](https://meetfranz.com/)
-    Franz is your messaging app for WhatsApp, Facebook Messenger, Slack, HipChat, Telegram and many many more.
+    Franz is your messaging app for WhatsApp, Facebook Messenger, Slack, HipChat, Telegram and many many more.
 
         brew cask install franz
 
