@@ -536,6 +536,13 @@ openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out c
 http-server -S -C cert.pem -o
 ````
 
+# The fuck
+Open your config.fish file and paste :
+
+````
+# The fuck
+thefuck --alias | source
+````
 
 # Mac Settings
 
