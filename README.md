@@ -529,6 +529,14 @@ npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier
 
 It will coming soon!
 
+## http-server run with https
+
+````
+openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
+http-server -S -C cert.pem -o
+````
+
+
 # Mac Settings
 
 # For Science
