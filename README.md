@@ -191,6 +191,7 @@ brew install git-flow-avh
 brew install heroku
 brew install awscli
 brew cask install filezilla
+brew install tree
 brew cask install evernote
 brew install ruby
 brew install bash
