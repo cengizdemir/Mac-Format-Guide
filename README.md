@@ -185,6 +185,7 @@ brew cask install spotify
 brew install node
 brew install wget
 brew install htop
+brew cask install deluge
 brew install aria2
 brew install git
 brew install git-flow-avh
