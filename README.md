@@ -121,8 +121,8 @@ brew services start mongodb
 Desktop Controller Apps;
 
 ```{r, engine='bash', count_lines}
-brew cask mongodb-compass
-brew cask robo-3t
+brew cask install mongodb-compass
+brew cask install robo-3t
 ```
 
 ### [PostgreSQL](https://www.postgresql.org/)
