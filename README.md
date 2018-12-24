@@ -574,6 +574,10 @@ alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall F
 showFiles
 hideFiles
 
+# Mojave Dark Mode : Font Rendering issue:
+defaults write -g CGFontRenderingFontSmoothingDisabled -bool FALSE
+
+
 ````
 
 # For Science
